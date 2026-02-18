@@ -66,6 +66,5 @@ model Product {
 model Member {
   id        Int      @id @default(autoincrement())
   name      String   @db.VarChar(191)
-  position  String   @db.VarChar(191)
   image     String   @db.VarChar(191)
 }
